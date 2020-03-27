@@ -1,2 +1,2 @@
-# free-crud-php-taggingphoto
+# CRUD PHP Taggingphoto
 Tagging photo using PHP
