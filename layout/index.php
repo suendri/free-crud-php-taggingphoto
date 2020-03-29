@@ -7,7 +7,7 @@
 	<meta name="description" content="CRUD PHP TAGGING PHOTO">
 	<meta name="author" content="Suendri">
 
-	<title>CRUD PHP TAGGING PHOTO</title>
+	<title>CRUD PHP Taggingphoto</title>
 	<link href="<?php echo URL; ?>/layout/assets/images/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="<?php echo URL; ?>/layout/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo URL; ?>/layout/assets/css/font-awesome.min.css">
@@ -46,7 +46,10 @@
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
 							<a class="nav-link" href="<?php echo URL; ?>">Home</a>
-						</li>						
+						</li>	
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo URL; ?>/siteplan">Siteplan</a>
+						</li>					
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo URL; ?>/about">About</a>
 						</li>
@@ -67,7 +70,7 @@
 		</section>
 
 		<main>
-			<div class="row my-3 main">			
+			<div class="row main">			
 				<div class="col">
 
 					<?php require_once "inc/router.php"; ?>

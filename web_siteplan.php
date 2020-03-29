@@ -1,15 +1,23 @@
 <?php
 
+/**
+ * Gosoftware Media Indonesia 2020
+ * --
+ * --
+ * http://gosoftware.web.id
+ * http://phpbego.wordpress.com
+ * e-mail : cs@gosoftware.web.id
+ * WA : 6285263616901
+ * --
+ * --
+ */
+
 $site = new App\Siteplan();
 $row = $site->tampil();
 
 ?>
 
-<div class="d-none d-lg-block">
-	<div class="alert alert-info">
-		<strong>Home</strong>
-	</div>
-</div>
+<h2>SITEPLAN</h2>
 
 <div class="d-lg-none">
 	<div class="alert alert-warning">
@@ -18,11 +26,16 @@ $row = $site->tampil();
 </div>
 
 <div class="d-none d-lg-block">
+
+	<div class="alert alert-info">
+		Klik dimanapun pada photo untuk menandai.
+	</div>
+
 	<div class="row">
 		<div class="col">
 			<div class="card mb-4 shadow-sm">
 				<div class="card-header">
-					Siteplan - Klik dimanapun pada photo untuk menandai.
+					Siteplan
 				</div>
 				<img src="<?php echo URL; ?>/layout/assets/images/main-photo.jpg" data-points-color="red" class="tagging-photo bd-placeholder-img card-img-top" data-allow-add-tags="true" data-show-all-on-hover="false" data-show-tags-buttons="true" data-points-tooltip-follow="down" data-points='<?php echo $row['site_points']; ?>' alt="">
 			</div>

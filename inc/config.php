@@ -5,12 +5,12 @@
  * --
  * --
  * http://gosoftware.web.id
+ * http://phpbego.wordpress.com
  * e-mail : cs@gosoftware.web.id
  * WA : 6285263616901
  * --
  * --
  */
-
 // Error reporting
 error_reporting(E_ALL);
 
